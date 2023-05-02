@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/andrezomko/AndreZomkoPortfolio/static/css/main.dd37fa8c.css",
+    "main.js": "/andrezomko/AndreZomkoPortfolio/static/js/main.a81ddb38.js",
+    "static/media/movieNotes.png": "/andrezomko/AndreZomkoPortfolio/static/media/movieNotes.17a5d348df77d6da46a8.png",
+    "static/media/mkburger.png": "/andrezomko/AndreZomkoPortfolio/static/media/mkburger.4d33f4a347911151d6ff.png",
+    "static/media/BMIcalc.png": "/andrezomko/AndreZomkoPortfolio/static/media/BMIcalc.739f6fa771d82678fd6c.png",
+    "static/media/foodExplorer.png": "/andrezomko/AndreZomkoPortfolio/static/media/foodExplorer.9a7c088c4d7c6afb4594.png",
+    "static/media/hero-light.jpg": "/andrezomko/AndreZomkoPortfolio/static/media/hero-light.dab3f9c12ef52db5f78e.jpg",
+    "static/media/hero-dark.jpg": "/andrezomko/AndreZomkoPortfolio/static/media/hero-dark.3b4b71e5e9c010844608.jpg",
+    "static/media/MarioBros.png": "/andrezomko/AndreZomkoPortfolio/static/media/MarioBros.5e8d80964e4a20a57aec.png",
+    "static/media/pomodoro.png": "/andrezomko/AndreZomkoPortfolio/static/media/pomodoro.4ccbe493d5d9086f9b50.png",
+    "service-worker.js": "/andrezomko/AndreZomkoPortfolio/service-worker.js",
+    "static/media/nodejs.png": "/andrezomko/AndreZomkoPortfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/JSlogo.png": "/andrezomko/AndreZomkoPortfolio/static/media/JSlogo.266bd9fb2663dcc057b4.png",
+    "static/media/GH.svg": "/andrezomko/AndreZomkoPortfolio/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/logo.svg": "/andrezomko/AndreZomkoPortfolio/static/media/logo.72e4c456fead5a2adcf5885af6814b06.svg",
+    "index.html": "/andrezomko/AndreZomkoPortfolio/index.html",
+    "main.dd37fa8c.css.map": "/andrezomko/AndreZomkoPortfolio/static/css/main.dd37fa8c.css.map",
+    "main.a81ddb38.js.map": "/andrezomko/AndreZomkoPortfolio/static/js/main.a81ddb38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd37fa8c.css",
+    "static/js/main.a81ddb38.js"
+  ]
+}
