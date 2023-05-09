@@ -6,6 +6,9 @@ import { skillData, resume } from "../data";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
 
+
+
+
 export default function Skills() {
   const { theme } = useAppContext();
 

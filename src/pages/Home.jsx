@@ -22,7 +22,6 @@ export default function Home() {
 
   return (
     <>
-     
       <Element name={"Home"} id="home">
          <NavBar />
          <Hero />

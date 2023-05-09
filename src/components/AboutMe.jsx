@@ -17,7 +17,7 @@ const StyledAboutMe = styled.section`
     width: 18rem;
     height: 18rem;
   }
-
+ 
 `;
 
 export default function AboutMe() {

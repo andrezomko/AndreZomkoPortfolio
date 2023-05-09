@@ -20,6 +20,9 @@ const StyledHero = styled.header`
   max-width: 1920px;
   margin: 0 auto;
   min-height: calc(100vh - var(--nav-height));
+  font-family: "Busorama ITC Std", helvetica;
+  
+
 
   &::before {
     content: "";
@@ -28,10 +31,11 @@ const StyledHero = styled.header`
     left: 0;
     width: 100%;
     height: 100%;
-    background: ${({ theme }) =>
+    /* background: transparent; */
+    /* background: ${({ theme }) =>
       theme.name === "light"
         ? "linear-gradient(38deg, rgba(244,242,232,1) 30%, rgba(12,12,12,1) 60%, rgba(97,218,251,1) 100%)"
-        : "linear-gradient(38deg, rgba(250,175,0,1) 20%, rgba(12,12,12,1) 50%, rgba(97,218,251,1) 100%)"};
+        : "linear-gradient(38deg, rgba(250,175,0,1) 20%, rgba(12,12,12,1) 50%, rgba(97,218,251,1) 100%)"}; */
     z-index: -2;
   }
 
@@ -43,10 +47,7 @@ const StyledHero = styled.header`
     left: 0;
     width: 100%;
     height: 100%;
-    background: ${({ theme }) =>
-      theme.name === "light"
-        ? "rgba(255, 255, 255, 0.2)"
-        : "rgba(0, 0, 0, 0.2)"}; 
+    background: transparent;
     z-index: -1;
   }
 
@@ -64,8 +65,8 @@ const StyledHero = styled.header`
 
 //QUEBRA MINIMA
 @media screen and (max-width: 550px) {
-  background: #212529;
-  border: 1px solid #212529; 
+  background: transparent;
+
 }
 
 

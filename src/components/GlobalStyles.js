@@ -52,14 +52,12 @@ a:hover {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  padding: var(--nav-height) 0;
-
 
 }
 
 //main title 
 .title { 
-  font-family: 'Busorama ITC Std', cursive;
+
   font-weight: 900;
   font-size: 100px; 
   color: #212529;
@@ -68,13 +66,12 @@ a:hover {
 }
 
 .titleDarkMode{
-  font-family: 'Busorama ITC Std', cursive;
+
   font-weight: 900;
   font-size: 100px; 
   text-shadow: 2px 4px 1px #DF0000;
 
 }
-
 
 .card {
   height: var(--card-height);
@@ -94,6 +91,22 @@ a:hover {
     background-color: var(--primary);
     border-color: var(--primary);
 }
+  @media screen and (max-width: 540px) {
+    .section{
+    margin-left: 26vw;
+    width: clamp(20rem, 50%, 35rem)
+    } 
+  }
+  @media screen and (max-width: 375px) {
+    .section{
+      margin-left: 30vw;
+    } 
+  }
+  @media screen and (max-width: 320px) {
+    .section{
+      margin-left: 35vw;
+    }
+  }
 
 
 @media screen and (min-width: 800px) {

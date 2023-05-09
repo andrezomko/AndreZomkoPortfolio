@@ -9,6 +9,18 @@ import ContactForm from "./ContactForm";
 const StyledSection = styled.section`
   min-height: 89vh;
   padding-top: var(--nav-height);
+
+
+  @media screen and (max-width: 540px) {
+    margin-left: 26vw;
+    width: clamp(20rem, 50%, 35rem)
+    } 
+  @media screen and (max-width: 375px) {
+    margin-left: 30vw;
+  }
+  @media screen and (max-width: 320px) {
+      margin-left: 35vw;
+  }
 `;
 
 export default function Contact() {
