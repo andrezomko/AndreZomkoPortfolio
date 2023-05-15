@@ -29,6 +29,7 @@ import jsLogo from "./images/JSlogo.png"
 import bmi from "./images/BMIcalc.png"
 import nodeJs from "./images/nodejs.png"
 import MarioBros from "./images/MarioBros.png"
+import Portfolio from "./images/Portfolio.png"
 
 
 // Hero BG images
@@ -174,6 +175,10 @@ export const projectCardImages = [
   {
     name: "Clock_Api",
     image: nodeJs,
+  },
+  {
+    name: "AndreZomkoPortfolio",
+    image: Portfolio,
   },
 ];
 
