@@ -11,6 +11,7 @@ import {
   FaNodeJs,
   FaDocker
 } from "react-icons/fa";
+
 import { 
   SiJavascript, 
   SiStyledcomponents,
