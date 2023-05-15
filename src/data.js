@@ -68,39 +68,41 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "Bootstrap",
-  },
-  {
-    id: 5,
     skill: <FaReact className="display-4" />,
     name: "React",
   },
   {
+    id: 5,
+    skill: <FaVuejs className="display-4" />,
+    name: "Vue",
+  },
+  {
     id: 6,
+    skill: <FaBootstrap className="display-4" />,
+    name: "Bootstrap",
+  },
+  
+  {
+    id: 7,
     skill: <SiStyledcomponents className="display-4" />,
     name: "Styled Components",
   },
   {
-    id: 7,
+    id: 8,
     skill: <SiRedux className="display-4" />,
     name: "Redux",
   },
   {
-    id: 8,
+    id: 9,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 10,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
-  {
-    id: 10,
-    skill: <FaVuejs className="display-4" />,
-    name: "Vue",
-  },
+ 
   {
     id: 11,
     skill: <FaNodeJs className="display-4" />,
