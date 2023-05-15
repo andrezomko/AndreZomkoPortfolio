@@ -119,7 +119,7 @@ export const skillData = [
   {
     id: 14,
     skill: <FaDocker className="display-4" />,
-    name: "Dockere",
+    name: "Docker",
   },
 
 
