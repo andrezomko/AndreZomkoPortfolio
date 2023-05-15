@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AndreZomkoPortfolio/static/css/main.dd37fa8c.css",
-    "main.js": "/AndreZomkoPortfolio/static/js/main.c8150887.js",
+    "main.js": "/AndreZomkoPortfolio/static/js/main.0732ea90.js",
     "static/media/movieNotes.png": "/AndreZomkoPortfolio/static/media/movieNotes.17a5d348df77d6da46a8.png",
     "static/media/mkburger.png": "/AndreZomkoPortfolio/static/media/mkburger.4d33f4a347911151d6ff.png",
     "static/media/BMIcalc.png": "/AndreZomkoPortfolio/static/media/BMIcalc.739f6fa771d82678fd6c.png",
@@ -17,10 +17,10 @@
     "static/media/logo.svg": "/AndreZomkoPortfolio/static/media/logo.72e4c456fead5a2adcf5885af6814b06.svg",
     "index.html": "/AndreZomkoPortfolio/index.html",
     "main.dd37fa8c.css.map": "/AndreZomkoPortfolio/static/css/main.dd37fa8c.css.map",
-    "main.c8150887.js.map": "/AndreZomkoPortfolio/static/js/main.c8150887.js.map"
+    "main.0732ea90.js.map": "/AndreZomkoPortfolio/static/js/main.0732ea90.js.map"
   },
   "entrypoints": [
     "static/css/main.dd37fa8c.css",
-    "static/js/main.c8150887.js"
+    "static/js/main.0732ea90.js"
   ]
 }
