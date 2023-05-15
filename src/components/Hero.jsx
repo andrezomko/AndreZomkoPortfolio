@@ -22,7 +22,10 @@ const StyledHero = styled.header`
   min-height: calc(100vh - var(--nav-height));
   font-family: "Busorama ITC Std", helvetica;
   
-
+@font-face {
+  font-family:"Busorama ITC Std" ;
+  src: url('../fonts/Busorama ITC Std Bold.otf');
+}
 
   &::before {
     content: "";

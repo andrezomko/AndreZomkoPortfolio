@@ -29,7 +29,7 @@ import jsLogo from "./images/JSlogo.png"
 import bmi from "./images/BMIcalc.png"
 import nodeJs from "./images/nodejs.png"
 import MarioBros from "./images/MarioBros.png"
-import Portfolio from "./images/Portfolio.png"
+import Portfolio from "./images/portfolio.png"
 
 
 // Hero BG images
