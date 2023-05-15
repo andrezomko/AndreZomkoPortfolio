@@ -7,3 +7,16 @@ ajeitar algo  para o background mobile dos themas. (hero)
       theme.name === "light"
         ? "linear-gradient(38deg, rgba(244,242,232,1) 30%, rgba(12,12,12,1) 60%, rgba(97,218,251,1) 100%)"
         : "linear-gradient(38deg, rgba(250,175,0,1) 20%, rgba(12,12,12,1) 50%, rgba(97,218,251,1) 100%)"};
+
+
+        {
+    id: 4,
+    skill: <FaDocker className="display-4" />,
+    name: "Docker",
+  },
+
+  {
+    id: 13,
+    skill: <SiJest className="display-4" />,
+    name: "Jest",
+  },

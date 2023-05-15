@@ -9,12 +9,15 @@ import {
   FaLinkedinIn,  
   FaVuejs,
   FaNodeJs,
+  FaDocker
 } from "react-icons/fa";
 import { 
   SiJavascript, 
   SiStyledcomponents,
-  SiRedux,SiExpress 
+  SiRedux,SiExpress,
+  SiJest
 } from "react-icons/si";
+
 
 // Projects Images:
 import foodExplorer from "./images/foodExplorer.png"
@@ -65,7 +68,7 @@ export const skillData = [
   {
     id: 4,
     skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    name: "Bootstrap",
   },
   {
     id: 5,
@@ -107,6 +110,17 @@ export const skillData = [
     skill: <SiExpress className="display-4" />,
     name: "Express",
   },
+  {
+    id: 13,
+    skill: <SiJest className="display-4" />,
+    name: "Jest",
+  },
+  {
+    id: 14,
+    skill: <FaDocker className="display-4" />,
+    name: "Docker",
+  },
+
 
 ];
 
@@ -153,6 +167,10 @@ export const projectCardImages = [
   {
     name: "MarioBros",
     image: MarioBros,
+  },
+  {
+    name: "Clock_Api",
+    image: nodeJs,
   },
 ];
 
