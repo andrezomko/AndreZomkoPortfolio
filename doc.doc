@@ -1,5 +1,6 @@
 
 ajeitar algo  para o background mobile dos themas. (hero)
+imagem tambem deve aparecer no mobile version. arrumar mobile version esta muito rumim.
 
 
 
@@ -20,3 +21,32 @@ ajeitar algo  para o background mobile dos themas. (hero)
     skill: <SiJest className="display-4" />,
     name: "Jest",
   },
+
+
+
+  const StyledHero = styled.header`
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: calc(100vh - var(--nav-height));
+  font-family: "Busorama ITC Std b", 'Limelight', helvetica; //'Limelight' Oswald
+
+  border: 1px solid red;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centralizar horizontalmente */
+    width: 100vw; /* Definir a largura como 100vw */
+    height: 100%;
+    background: ${({ theme }) =>
+      theme.name === "light"
+        ? `url(${Light}) top center no-repeat`
+        : `url(${Dark}) top center no-repeat`};
+    background-attachment: fixed;
+    z-index: -2;
+    border: 5px solid yellow;
+  }

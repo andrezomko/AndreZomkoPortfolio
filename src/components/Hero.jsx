@@ -12,87 +12,64 @@ import { Spin, puffInCenter} from "./globalStyledComponents";
 import SocialLinks from "./SocialLinks";
 import { useAppContext } from "../appContext";
 
-
 const StyledHero = styled.header`
   position: relative;
   display: grid;
   place-items: center;
-  max-width: 1920px;
-  margin: 0 auto;
+  width: 100%;
   min-height: calc(100vh - var(--nav-height));
-  font-family: "Busorama ITC Std", helvetica;
-  
-@font-face {
-  font-family:"Busorama ITC Std" ;
-  src: url('../fonts/Busorama ITC Std Bold.otf');
-}
+  font-family: "Busorama ITC Std", 'Limelight', helvetica; //'Limelight' Oswald
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background: transparent; */
-    /* background: ${({ theme }) =>
-      theme.name === "light"
-        ? "linear-gradient(38deg, rgba(244,242,232,1) 30%, rgba(12,12,12,1) 60%, rgba(97,218,251,1) 100%)"
-        : "linear-gradient(38deg, rgba(250,175,0,1) 20%, rgba(12,12,12,1) 50%, rgba(97,218,251,1) 100%)"}; */
-    z-index: -2;
-  }
+  border: 1px solid red;
+
+  background: ${({ theme }) =>
+    theme.name === "light"
+      ? `url(${Light}) top center no-repeat`
+      : `url(${Dark}) top center no-repeat`};
+  background-size: cover;
 
   /* Overlay for contrast */
   &::after {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background: transparent;
     z-index: -1;
   }
 
   .down-container {
-    height: 10rem;
+    height: 9rem;
   }
 
-/* REACT LOGO ANIMATION: -------------------------------- */
-@media (prefers-reduced-motion: no-preference) {
-  .hero-img {
-    animation: ${puffInCenter} 1s ease-in-out forwards,
-               ${Spin} infinite 20s linear 1s;
-  }
-}
-
-//QUEBRA MINIMA
-@media screen and (max-width: 550px) {
-  background: transparent;
-
-}
-
-
-  @media screen and (min-width: 1180px) {
-    &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) top center fixed no-repeat`
-          : `url(${Dark}) top center fixed no-repeat`};
-      background-size: 100vw auto;
+  /* REACT LOGO ANIMATION: -------------------------------- */
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-img {
+      animation: ${puffInCenter} 1s ease-in-out forwards,
+                 ${Spin} infinite 20s linear 1s;
     }
   }
 
-  @media screen and (min-width: 1367px) {
-    &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) center center fixed no-repeat`
-          : `url(${Dark}) center center fixed no-repeat`};
-      background-size: cover;
-    }
+  @media (min-width: 768px) and (max-width: 770px) {
+  width: 50rem;
+}
+
+  /* Media query para dispositivos com largura inferior a 544px */
+  @media (max-width: 544px) {
+    min-height: calc(100vh - var(--nav-height) - 9rem); /* Subtrai a altura do down-container */
+    width:34rem;
   }
+  @media (max-width: 300px) {
+    min-height: calc(100vh - var(--nav-height) - 6rem); /* Subtrai a altura do down-container */
+    width:34rem;
+  }
+
 `;
+
+
+
+  
 
 export default function Hero() {
   const { theme} = useAppContext();
