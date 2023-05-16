@@ -28,7 +28,6 @@ const themes = {
     name: "light",
     color: "#212529",
     background: "#F5F2E8",
-
     textShadow: "10px 4px 1px #DF0000",
   },
   dark: {
