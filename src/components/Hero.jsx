@@ -19,9 +19,6 @@ const StyledHero = styled.header`
   width: 100%;
   min-height: calc(100vh - var(--nav-height));
   font-family: "Busorama ITC Std", 'Limelight', helvetica; //'Limelight' Oswald
-
-  border: 1px solid red;
-
   background: ${({ theme }) =>
     theme.name === "light"
       ? `url(${Light}) top center no-repeat`

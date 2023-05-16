@@ -8,6 +8,7 @@ import GH from "../images/GH.svg";
 import { Card } from "react-bootstrap";
 
 const StyledCardComponent = styled.div`
+border: 1px soid green;
   .card-footer {
     border-top: var(--border);
 
@@ -27,7 +28,7 @@ const StyledCardComponent = styled.div`
 export default function StyledCard({ theme, image, name, description, url }) {
   return (
     <StyledCardComponent>
-      <Card bg={theme === "light" ? "white" : "dark"}>
+      <Card bg={theme === "light" ? "light" : "dark"}>
         <Card.Img
           variant="top"
           src={image ? image : GH}
