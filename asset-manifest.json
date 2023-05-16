@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AndreZomkoPortfolio/static/css/main.dd37fa8c.css",
-    "main.js": "/AndreZomkoPortfolio/static/js/main.7210775b.js",
+    "main.js": "/AndreZomkoPortfolio/static/js/main.f23dc17d.js",
     "static/media/portfolio.png": "/AndreZomkoPortfolio/static/media/portfolio.1cda32b140884346f8e6.png",
     "static/media/movieNotes.png": "/AndreZomkoPortfolio/static/media/movieNotes.17a5d348df77d6da46a8.png",
     "static/media/mkburger.png": "/AndreZomkoPortfolio/static/media/mkburger.4d33f4a347911151d6ff.png",
@@ -18,10 +18,10 @@
     "static/media/logo.svg": "/AndreZomkoPortfolio/static/media/logo.72e4c456fead5a2adcf5885af6814b06.svg",
     "index.html": "/AndreZomkoPortfolio/index.html",
     "main.dd37fa8c.css.map": "/AndreZomkoPortfolio/static/css/main.dd37fa8c.css.map",
-    "main.7210775b.js.map": "/AndreZomkoPortfolio/static/js/main.7210775b.js.map"
+    "main.f23dc17d.js.map": "/AndreZomkoPortfolio/static/js/main.f23dc17d.js.map"
   },
   "entrypoints": [
     "static/css/main.dd37fa8c.css",
-    "static/js/main.7210775b.js"
+    "static/js/main.f23dc17d.js"
   ]
 }
