@@ -9,9 +9,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
 
 const StyledAboutMe = styled.section`
-
   margin:10px 0 auto;
-
 
   p {
     font-size: 1.25rem;
@@ -41,9 +39,11 @@ const StyledAboutMe = styled.section`
   }
 
   @media screen and (max-width:799px){
-    margin: 0 auto;
+    margin: 2rem auto 2rem;
     width: 90vw;
-
+    /* .d-flex{
+      margin-top: 2rem;
+    } */
     .mainct{
       flex-direction: column;
       gap: 1.5rem;
