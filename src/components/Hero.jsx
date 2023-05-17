@@ -51,6 +51,7 @@ const StyledHero = styled.header`
   @media (min-width: 768px) and (max-width: 770px) {
   width: 50rem;
 }
+ 
 
   /* Media query para dispositivos com largura inferior a 544px */
   @media (max-width: 544px) {

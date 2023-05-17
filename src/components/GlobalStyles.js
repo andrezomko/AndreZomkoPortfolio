@@ -87,6 +87,8 @@ a:hover {
     background-color: var(--primary);
     border-color: var(--primary);
 }
+
+
   @media screen and (max-width: 540px) {
 
     .title, .titleDarkMode{
@@ -106,11 +108,6 @@ a:hover {
     .section{
       margin-left: 37vw;
     }
-  }
-  @media screen and (max-width: 680px) {
-
-  
-  
   }
 
 @media screen and (min-width: 800px) {
