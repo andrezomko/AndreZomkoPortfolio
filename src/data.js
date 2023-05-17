@@ -56,73 +56,87 @@ export const skillData = [
     id: 1,
     skill: <FaHtml5 className="display-4" />,
     name: "HTML5",
+    link: "https://developer.mozilla.org/docs/Web/HTML",
   },
   {
     id: 2,
     skill: <FaCss3Alt className="display-4" />,
     name: "CSS3",
+    link:"https://developer.mozilla.org/pt-BR/docs/Web/CSS"
   },
   {
     id: 3,
     skill: <SiJavascript className="display-4" />,
     name: "JavaScript",
+    link:"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
   },
   {
     id: 4,
     skill: <FaReact className="display-4" />,
     name: "React",
+    link:"https://react.dev/learn"
   },
   {
     id: 5,
     skill: <FaVuejs className="display-4" />,
     name: "Vue",
+    link:"https://vuejs.org/guide/introduction.html"
   },
   {
     id: 6,
     skill: <FaBootstrap className="display-4" />,
     name: "Bootstrap",
+    link:"https://getbootstrap.com/docs/5.3/getting-started/introduction/"
   },
   
   {
     id: 7,
     skill: <SiStyledcomponents className="display-4" />,
     name: "Styled Components",
+    link:"https://styled-components.com/docs/basics"
   },
   {
     id: 8,
     skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    name: "Redux Toolkit",
+    link:"https://redux-toolkit.js.org/tutorials/overview"
   },
   {
     id: 9,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
+    link:"https://git-scm.com/book/en/v2"
   },
   {
     id: 10,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
+    link:"https://docs.github.com/en"
   },
  
   {
     id: 11,
     skill: <FaNodeJs className="display-4" />,
     name: "Node",
+    link:"https://nodejs.org/en/about"
   },
   {
     id: 12,
     skill: <SiExpress className="display-4" />,
     name: "Express",
+    link:"https://expressjs.com/en/starter/installing.html"
   },
   {
     id: 13,
     skill: <SiJest className="display-4" />,
     name: "Jest",
+    link:"https://jestjs.io/docs/getting-started"
   },
   {
     id: 14,
     skill: <FaDocker className="display-4" />,
     name: "Docker",
+    link:"https://docs.docker.com/"
   },
 
 
